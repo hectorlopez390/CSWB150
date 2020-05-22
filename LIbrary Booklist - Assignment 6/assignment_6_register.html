@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/KingLib_3.css">
+</head>
+<body>
+
+<div id="logo">
+<img src="http://profperry.com/Classes20/PHPwithMySQL/KingLibLogo.jpg" > 
+</div>
+
+<div class="space"></div>
+
+<div id="patron">
+<p>
+Please sign up </br>
+</p>
+
+<form method="post" action="assignment_6_add_patron.php">
+<p>
+First Name:</br>
+<input type="text" name="firstname" size="25" />
+</p>
+
+<p>
+Last Name: </br>
+<input type="text" name="lastname" size="25" />
+</p>
+
+<p>
+Email: </br>
+<input type="text" name="email" size="30" />
+</p>
+
+<p>
+Birth Year: </br>
+<input type="text" name="birthYear" size="4" />
+</p>
+
+<p>
+City of Residence: </br>
+<select name="city" size="1">
+<option disabled selected value> - </option>
+<option value="San Diego">San Diego</option>
+<option value="San Francisco">San Francisco</option>
+<option value="Los Angeles">Los Angeles</option>
+
+</select>
+</p>
+
+<p><input type="submit" name ="submitButton" value="Submit Information"></p>
+
+</form>
+
+<p>
+For Admin Use Only: 
+<a href = "assignment_6_view_patron.php" >View Patrons</a> 
+<p/>
+
+</div>
+
+</body>
+</html> 
